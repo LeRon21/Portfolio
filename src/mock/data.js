@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Welcome to my website. Here is where I will be keeping projects I work on as I continue to learn and get better with coding as a career. I graduated from college wanting to focus on another path in computer graphics before I landed in web development, which is why there is such a gap between graduation date and potential job application date.',
-  paragraphTwo: 'Now that I have started to dig deeper into the powers of coding I have seemed to find a new flame to run after. Luckily this can also be a way to show my portfolio and skills to potential employeers.',
-  paragraphThree: 'Thank you for taking the time to look at my cite. Cant wait to hear from you.',
+  paragraphOne:
+    'Welcome to my website. Here is where I will be keeping projects I work on as I continue to learn and get better with coding as a career. I graduated from college wanting to focus on another path in computer graphics before I landed in web development, which is why there is such a gap between graduation date and potential job application date.',
+  paragraphTwo:
+    'Now that I have started to dig deeper into the powers of coding I have seemed to find a new flame to run after. Luckily this can also be a way to show my portfolio and skills to potential employeers.',
+  paragraphThree: 'Thank you for taking the time to look at my site. Cant wait to hear from you.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -28,10 +30,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'robo.jpg' ,
+    img: 'robo.jpg',
     title: 'RoboJokes',
-    info: 'This is my favorite program I have done so far. It shows I can use API;s since I utilize a text to speech API and Joke API to run this entire program.',
-    info2: 'It\'s also really cute!',
+    info:
+      'This is my favorite program I have done so far. It shows I can use APIs since I utilize a text to speech API and Joke API to run this entire program.',
+    info2: "It's also really cute!",
     url: 'https://leron21.github.io/Robojokes/',
     repo: 'https://github.com/LeRon21/Robojokes',
   },
@@ -46,7 +49,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'form.jpg' ,
+    img: 'form.jpg',
     title: 'Registration Form',
     info: 'Just a form to show I know the basics of HTML, CSS, and Javascript.',
     info2: '',
